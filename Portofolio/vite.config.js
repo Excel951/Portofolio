@@ -9,5 +9,5 @@ export default defineConfig({
     tailwindcss(),
   ],
   // Kalau kamu sudah sempat tambah 'base' untuk GitHub Pages, biarkan saja ada di sini
-  base: '/portofolio/',
+  base: '/Portofolio/',
 })
