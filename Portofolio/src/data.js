@@ -10,12 +10,13 @@ export const projects = [
 	// },
 	{
 		id: 1,
-		title: "IoT Middleware Developer (Datalogger)",
-		role: "Backend Engineer",
-		techStack: ["Python", "RS-232", "HL7/ASTM"],
+		title: "Pollen Mapping System",
+		role: "Machine Learning Engineer",
+		techStack: ["Flask", "React", "TensorFlow", "SQLAlchemy"],
 		description:
-			"Engineered middleware to bridge medical analyzers with LIS backend, converting raw serial data ensuring 100% transmission accuracy.",
-		link: "https://www.linkedin.com/in/abigail-excelsis-deo/overlay/1737340337168/single-media-viewer/?profileId=ACoAADjBSV0BlYFcpKYNMds5EE55WeHpwtWJdBg",
+			"Collaborated with Ritsumeikan University to build a crowdsourced GIS for pollen allergy tracking. Conducted comprehensive field data collection to build the dataset and trained a MobileNetV2 classification model. Engineered the backend using Flask to integrate the trained model for real-time plant image classification.",
+		link: "https://drive.google.com/file/d/1Kkhir0wbve-XaaEL7BiGUD-POHFaA0-6/view?usp=sharing", // Bisa kamu isi dengan link publikasi atau GitHub jika ada
+		image: null,
 	},
 	{
 		id: 2,
@@ -23,8 +24,9 @@ export const projects = [
 		role: "Machine Learning Engineer",
 		techStack: ["Python", "TensorFlow", "GCP"],
 		description:
-			"Integrated TensorFlow ML models into the backend to enable real-time plant disease identification. Selected as a Top 50 Capstone Team at Bangkit Academy.",
+			"Engineered the plant disease identification model, specializing in rigorous data cleaning and preprocessing pipelines. Integrated TensorFlow models into the backend for real-time analysis, leading the project to be selected as a Top 50 Capstone Team at Bangkit Academy.",
 		link: "https://github.com/HI-PONIC",
+		image: null,
 	},
 	{
 		id: 3,
@@ -32,7 +34,63 @@ export const projects = [
 		role: "Fullstack Developer",
 		techStack: ["Laravel", "PHP", "MySQL"],
 		description:
-			"Architected a decision support system using SAW algorithm for automated student ranking with dynamic criteria.",
+			"Architected a Decision Support System implementing the Simple Additive Weighting (SAW) algorithm. Developed both the frontend UI and robust backend logic for dynamic criteria configuration, automated weight calculations, and the final student ranking dashboard.",
 		link: "https://github.com/habibfr/Mahasiswa-Berprestasi",
+		image: null,
+	},
+	{
+		id: 4,
+		title: "Budget Mobile",
+		role: "Android Developer",
+		techStack: ["Java", "SQL Lite"],
+		description:
+			"An simple application where user can keep track their financials. This application has feature like add transactions (income and outcome), add the description of transactions, display transaction history, and expense charts. I worked on this project with my team for final exam (UAS) of Mobile Development.",
+		link: "https://github.com/habibfr/Budget-Mobile",
+		image: null,
+	},
+];
+
+export const experiences = [
+	{
+		id: 1,
+		title: "IoT Middleware Developer Intern",
+		organization: "AdamLabs (Medical Software House)",
+		duration: "Jul 2024 – Oct 2024",
+		description:
+			"Engineered middleware solutions using Python to bridge medical analyzers with LIS backend. Developed data parsing algorithms to convert raw RS-232 serial data into standardized HL7 and ASTM formats, ensuring 100% transmission accuracy.",
+	},
+	{
+		id: 2,
+		title: "Machine Learning",
+		organization: "Bangkit Academy (Google, GoTo, Traveloka)",
+		duration: "Feb 2024 – Aug 2024",
+		description:
+			"Integrated TensorFlow ML models into the application backend for real-time plant disease identification and harvest prediction. Selected as a Top 50 Capstone Team for the 'Hi-Ponic' smart hydroponic system.",
+	},
+];
+
+export const educations = [
+	{
+		id: 1,
+		title: "Bachelor of Information Systems",
+		organization: "Universitas Dinamika",
+		duration: "2021 – 2025",
+		description:
+			"GPA: 3.84 / 4.00. Selected for the Joint-Class Program with Ritsumeikan University (Japan). Relevant Coursework: Web Programming, Database Systems, Data Structures, Algorithms.",
+	},
+];
+
+export const certifications = [
+	{
+		id: 1,
+		name: "TensorFlow Developer Professional Certificate",
+		issuer: "DeepLearning.AI",
+		link: "https://dev.id/certificate/verify/J7208ODV56",
+	},
+	{
+		id: 2,
+		name: "Web Developer Bootcamp",
+		issuer: "Udemy",
+		link: "https://www.udemy.com/certificate/UC-bc268b07-0134-4bb3-9333-39293270956e/",
 	},
 ];
