@@ -40,7 +40,7 @@ export const projects = [
 	},
 	{
 		id: 4,
-		title: "Budget Mobile",
+		title: "Budget Buddy",
 		role: "Android Developer",
 		techStack: ["Java", "SQL Lite"],
 		description:
@@ -59,11 +59,30 @@ export const experiences = [
 		description:
 			"Engineered middleware solutions using Python to bridge medical analyzers with LIS backend. Developed data parsing algorithms to convert raw RS-232 serial data into standardized HL7 and ASTM formats, ensuring 100% transmission accuracy.",
 	},
+];
+
+export const campusExperiences = [
+	{
+		id: 1,
+		title: "Undergraduate Machine Learning Researcher",
+		organization: "Universitas Dinamika",
+		duration: "2025",
+		description:
+			"Conducting an academic research study on employee turnover prediction. Developed and evaluated a predictive model utilizing the XGBoost algorithm, effectively handling and preprocessing real-world HR datasets comprising active employees from 2023 and resigned employees from the 2022-2023 period.",
+	},
 	{
 		id: 2,
-		title: "Machine Learning",
+		title: "Joint-Class Program Participant",
+		organization: "Ritsumeikan University & Universitas Dinamika",
+		duration: "2025",
+		description:
+			"Selected for an international academic collaboration program. Co-authored and developed a crowdsourced Geographical Information System (GIS) project named 'A Pollen Mapping System'. Worked closely with cross-border peers to integrate a MobileNetV2 AI model with a Flask backend architecture.",
+	},
+	{
+		id: 3,
+		title: "Machine Learning Independent Study",
 		organization: "Bangkit Academy (Google, GoTo, Traveloka)",
-		duration: "Feb 2024 – Aug 2024",
+		duration: "2024",
 		description:
 			"Integrated TensorFlow ML models into the application backend for real-time plant disease identification and harvest prediction. Selected as a Top 50 Capstone Team for the 'Hi-Ponic' smart hydroponic system.",
 	},
@@ -76,7 +95,7 @@ export const educations = [
 		organization: "Universitas Dinamika",
 		duration: "2021 – 2025",
 		description:
-			"GPA: 3.84 / 4.00. Selected for the Joint-Class Program with Ritsumeikan University (Japan). Relevant Coursework: Web Programming, Database Systems, Data Structures, Algorithms.",
+			"GPA: 3.84 / 4.00. Relevant Coursework: Web Programming, Database Systems, Data Structures, Algorithms.",
 	},
 ];
 
@@ -84,7 +103,7 @@ export const certifications = [
 	{
 		id: 1,
 		name: "TensorFlow Developer Professional Certificate",
-		issuer: "DeepLearning.AI",
+		issuer: "dev.id",
 		link: "https://dev.id/certificate/verify/J7208ODV56",
 	},
 	{
